@@ -1,0 +1,9 @@
+get_sensor_data:
+  name: "Obtener datos de sensores"
+  description: "Solicita los datos de todos los sensores configurados en la integración."
+  fields: {}
+
+update_token:
+  name: "Actualizar token"
+  description: "Fuerza la actualización del token de autenticación con la API."
+  fields: {}

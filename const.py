@@ -1,0 +1,8 @@
+DOMAIN = "sungrow_integration"
+CONF_USERNAME = "username"
+CONF_PASSWORD = "password"
+CONF_APPKEY = "appkey"
+CONF_X_ACCESS_KEY = "sung_secret"
+CONF_PUBLIC_KEY = "RSA_public"
+CONF_PS_KEY = "ps_key"
+CONF_POINT_ID_LIST = "point_id_list"
