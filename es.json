@@ -1,0 +1,46 @@
+{
+    "title": "Configuración de Sungrow Integration",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Configurar Sungrow Integration",
+                "description": "Introduce la información necesaria para conectarte a la API de iSolarCloud.",
+                "data": {
+                    "username": "Usuario",
+                    "password": "Contraseña",
+                    "appkey": "app key",
+                    "x_access_key": "x access key",
+                    "public_key": "Clave pública RSA",
+                    "ps_key": "PS key",
+                    "point_id_list": "Lista de IDs de puntos",
+                    "sensor_names": "Nombres de los sensores"
+                }
+            }
+        },
+        "error": {
+            "auth": "Error de autenticación. Verifica tus credenciales.",
+            "connection": "Error de conexión con la API. Inténtalo de nuevo más tarde."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Opciones de Sungrow Solar",
+                "description": "Configura las opciones adicionales de la integración.",
+                "data": {
+                    "sensor_update_interval": "Intervalo de actualización de los sensores (en segundos)"
+                }
+            }
+        }
+    },
+    "services": {
+        "get_sensor_data": {
+            "name": "Obtener datos de sensores",
+            "description": "Obtiene y actualiza los datos de todos los sensores."
+        },
+        "update_token": {
+            "name": "Actualizar token",
+            "description": "Actualiza el token de autenticación de la API."
+        }
+    }
+}

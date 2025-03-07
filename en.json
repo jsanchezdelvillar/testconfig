@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sungrow Integration Configuration",
+        "description": "Enter the credentials and settings for your solar monitoring system.",
+        "data": {
+          "username": "Username",
+          "password": "Password",
+          "appkey": "App Key",
+          "sung_secret": "X-Access Key",
+          "RSA_public": "Public RSA Key",
+          "ps_key": "PS Key",
+          "point_id_list": "Point ID List",
+          "sensor_names": "Sensor Names"
+        }
+      }
+    },
+    "error": {
+      "auth": "Authentication failed, please check your credentials."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "description": "Modify integration settings."
+      }
+    }
+  },
+  "services": {
+    "update_sensor_data": {
+      "name": "Update Sensor Data",
+      "description": "Request updated sensor data for all registered sensors."
+    },
+    "refresh_token": {
+      "name": "Refresh Token",
+      "description": "Request a new authentication token."
+    }
+  }
+}
